@@ -13,7 +13,7 @@ function showUsage() {
     console.log(strings["usage"]);
 }
 
-console.log(parseInt(process.argv[2]));
+//console.log(parseInt(process.argv[2]));
 
 switch (process.argv.length) {
     case 3:
