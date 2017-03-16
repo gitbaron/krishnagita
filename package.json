@@ -4,17 +4,26 @@
   "description": "A simple cli program for Gita verses.",
   "main": "gita.js",
   "scripts": {
-    "test": "dharma"
+    "start": "node gita.js",
+    "test": "echo \"No test specified!\" && exit 1",
+    "install": "echo \"Thank you for installing!\""
+ },
+  "bin": {
+    "uvach": "gita.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gitbaron/krishnagita.git"
   },
   "keywords": [
-    "Gita"
+    "Gita",
+    "Krishna",
+    "Srimad",
+    "Bhagvat",
+    "Bharat"
   ],
   "author": "Sharad Baranwal <Sharad@Baranwal.com>",
-  "license": "ISC",
+  "license": "Unlicense",
   "bugs": {
     "url": "https://github.com/gitbaron/krishnagita/issues"
   },
