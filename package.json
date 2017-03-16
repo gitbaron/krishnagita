@@ -1,0 +1,22 @@
+{
+  "name": "krishnagita",
+  "version": "0.1.0",
+  "description": "A simple cli program for Gita verses.",
+  "main": "gita.js",
+  "scripts": {
+    "test": "dharma"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitbaron/krishnagita.git"
+  },
+  "keywords": [
+    "Gita"
+  ],
+  "author": "Sharad Baranwal <Sharad@Baranwal.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitbaron/krishnagita/issues"
+  },
+  "homepage": "https://github.com/gitbaron/krishnagita#readme"
+}
