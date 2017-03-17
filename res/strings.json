@@ -1,4 +1,7 @@
 {
-    "usage": "Pass at least one number 0-18",
+    "usage": "Usage: Pass at least the adhyaya number 0-18",
+    "invalid_adhyaya": "Error: Invalid adhyaya number:",
+    "invalid_shloka":"Error: Invalid shloka number:",
+    "valid_shloka":"Usage: Enter a valid shloka number 1-",
     "Appname":"Srimad Bhagvat Gita"
 }
