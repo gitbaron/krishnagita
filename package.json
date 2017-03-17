@@ -1,6 +1,6 @@
 {
   "name": "krishnagita",
-  "version": "1.0.0-0",
+  "version": "1.0.0",
   "description": "A simple cli program for Gita verses.",
   "main": "gita.js",
   "scripts": {
