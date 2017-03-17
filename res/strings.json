@@ -1,7 +1,7 @@
 {
-    "usage": "Usage: Pass at least the adhyaya number 0-18",
+    "Appname": "Srimad Bhagvat Gita",
+    "usage": "Usage: uvach <adhyaya number> [<shloka number>]\nPass at least the adhyaya number 1-18",
     "invalid_adhyaya": "Error: Invalid adhyaya number:",
-    "invalid_shloka":"Error: Invalid shloka number:",
-    "valid_shloka":"Usage: Enter a valid shloka number 1-",
-    "Appname":"Srimad Bhagvat Gita"
+    "invalid_shloka": "Error: Invalid shloka number:",
+    "valid_shloka": "Usage: Enter a valid shloka number 1-"
 }
