@@ -11,7 +11,7 @@ function uvach(adhyaya, shloka) {
     // adhyaya needs to be a number from 0 (for the preface) through 18
     if (parseInt(adhyaya) != NaN && adhyaya > 0 && adhyaya < 19) {
         // get the number of shloka for this adhyaya
-        var numShloka = gita[adhyaya].numShloka;
+        var numShloka = parseInt(gita[adhyaya].numShloka);
         console.log("This adhyaya has " + numShloka + " shloka.");
         if (shloka == "title") {
             console.log("Gita adhyaya " + adhyaya + " title is\n" + gita[adhyaya].title);
