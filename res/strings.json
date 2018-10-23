@@ -1,7 +1,10 @@
 {
-    "Appname": "Srimad Bhagvat Gita",
-    "usage": "Usage: uvach <adhyaya number> [<shloka number>]\nPass at least the adhyaya number 1-18",
-    "invalid_adhyaya": "Error: Invalid adhyaya number:",
-    "invalid_shloka": "Error: Invalid shloka number:",
-    "valid_shloka": "Usage: Enter a valid shloka number 1-"
+  "Appname": "Srimad Bhagvat Gita",
+  "msgUsage": "\nUsage: uvach <adhyaya number> [<optional shloka number>]\nPass at least the adhyaya number 1-18!\n",
+  "msgTitle": "Srimad Bhagvat Gita adhyaya %s title is \"%s\"",
+  "msgUvach": "Srimad Bhagvat Gita adhyaya %s, shloka %s is\n\n%s\n",
+  "errInvalidAdhyaya": "Error: Invalid adhyaya number %s!",
+  "errInvalidShloka": "Error: Invalid shloka number %s for adhyaya number %s!",
+  "msgShlokaNum": "This adhyaya has %s shloka!",
+  "msgAdhyayaNum": "There are total 18 adhyaya in SrimadBhagvatGita!"
 }
