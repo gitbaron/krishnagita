@@ -4,8 +4,8 @@
 
 process.title = 'gita-uvach';
 
-var gita = require('./res/gita');
-var strings = require('./res/strings');
+var gita = require('../res/gita');
+var strings = require('../res/strings');
 
 function uvach(adhyaya, shloka) {
   // adhyaya needs to be a number from 0 (for the preface) through 18

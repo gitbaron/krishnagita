@@ -1,11 +1,11 @@
 {
   "name": "krishnagita",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A simple cli program for Gita verses.",
-  "main": "gita.js",
+  "main": "src/gita.js",
   "scripts": {
     "start": "node gita.js",
-    "test": "echo \"No test specified!\" && exit 1",
+    "test": "nyc --reporter=html --reporter=text mocha",
     "install": "echo \"Thank you for installing!\""
   },
   "bin": {
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/gitbaron/krishnagita/issues"
   },
-  "homepage": "https://github.com/gitbaron/krishnagita#readme"
+  "homepage": "https://github.com/gitbaron/krishnagita#readme",
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "nyc": "^14.1.1"
+  }
 }
